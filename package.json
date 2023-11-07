@@ -1,0 +1,30 @@
+{
+  "name": "webstudio-project",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://IrynaValchuk.github.io/webstudio-project/",
+  "scripts": {
+    "start": "parcel src/*.html",
+    "build": "parcel build src/*.html --public-url /webstudio-project/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IrynaValchuk/webstudio-project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IrynaValchuk/webstudio-project/issues"
+  },
+  "dependencies": {
+    "modern-normalize": "^1.1.0"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.10.2",
+    "parcel": "^2.10.2",
+    "parcel-reporter-clean-dist": "^1.0.4",
+    "posthtml-include": "^1.7.4"
+  },
+  "browserslist": "> 0.5%, last 2 versions, not dead"
+}
